@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <style>
     .container {
         display: flex;
@@ -23,6 +19,12 @@
         padding-left: 25px;
         padding-right: 50px;
     }
+
+    @media(max-width:991px){
+    .nasa-logo {padding-left: 20px; padding-right: 10px;}
+    .github-logo,.github-text {display: none;}
+    }
+
 </style>
 
 <div class="container">
