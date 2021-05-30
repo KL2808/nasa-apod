@@ -21,6 +21,16 @@
         word-wrap: break-word;
         color: #eff3f7;
     }
+
+    @media screen and (max-width: 1000px) {
+        .container {
+            flex-direction: column;
+        }
+        .picture {
+        max-width: 90vw;
+        }
+    }
+
 </style>
 
 <div class="container">
