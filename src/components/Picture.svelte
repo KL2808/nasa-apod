@@ -27,7 +27,7 @@
             flex-direction: column;
         }
         .picture {
-        max-width: 90vw;
+            max-width: 90vw;
         }
     }
 
